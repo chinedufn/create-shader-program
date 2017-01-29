@@ -1,0 +1,40 @@
+{
+  "name": "create-shader-program",
+  "version": "0.0.1",
+  "description": "Compiles, links and returns a shader program from a give vertex and fragment shader",
+  "main": "src/create-shader-program.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "standard && tape test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chinedufn/create-shader-program.git"
+  },
+  "keywords": [
+    "create",
+    "shader",
+    "program",
+    "glsl",
+    "webgl",
+    "draw",
+    "render",
+    "3d",
+    "model",
+    "vertex",
+    "fragment"
+  ],
+  "author": "Chinedu Francis Nwafili <frankie.nwafili@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chinedufn/create-shader-program/issues"
+  },
+  "homepage": "https://github.com/chinedufn/create-shader-program#readme",
+  "devDependencies": {
+    "gl": "^4.0.2",
+    "standard": "^8.6.0",
+    "tape": "^4.6.3"
+  }
+}
