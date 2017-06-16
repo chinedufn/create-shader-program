@@ -27,7 +27,9 @@ test('Create working shader program', function (t) {
     }
   `
 
-  t.doesNotThrow(createShaderProgram.bind(null, gl, vertexShader, fragmentShader))
+  var programObject = createShaderProgram(gl, vertexShader, fragmentShader)
+  t.notOk(programObject.err, 'No errors when creating our program')
+
   t.end()
 })
 

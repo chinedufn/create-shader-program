@@ -33,8 +33,11 @@
   },
   "homepage": "https://github.com/chinedufn/create-shader-program#readme",
   "devDependencies": {
-    "gl": "^4.0.2",
+    "gl": "^4.0.3",
     "standard": "^8.6.0",
     "tape": "^4.6.3"
+  },
+  "dependencies": {
+    "get-attributes-uniforms": "^1.1.1"
   }
 }
