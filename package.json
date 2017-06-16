@@ -1,6 +1,6 @@
 {
   "name": "create-shader-program",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Compiles, links and returns a shader program from a give vertex and fragment shader",
   "main": "src/create-shader-program.js",
   "directories": {
